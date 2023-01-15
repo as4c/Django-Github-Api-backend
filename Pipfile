@@ -9,8 +9,8 @@ Django==4.1.2
 django-autoslug==1.9.8
 django-tinymce==3.4.0
 djangorestframework==3.14.0
-backoff==5.0.1
-requests==2.25.0
+backoff==2.2.1
+requests== 2.27.1
 [dev-packages]
 
 [requires]
