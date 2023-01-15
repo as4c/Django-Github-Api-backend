@@ -14,7 +14,7 @@ SECRET_KEY = 'django-insecure-dsxc#5+edq&mjf^l1@08ed5*x!%^5mg*rqu9mme#nk-%8_-2tu
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -125,7 +125,7 @@ MEDIA_ROOT=os.path.join(BASE_DIR,'media')
 
 CORS_ALLOW_ALL_ORIGINS = False
 CORS_ORIGIN_WHITELIST = ['http://localhost:3000',
-                        'https://as4c.github.io/github-api-frontend'
+                        'https://as4c.github.io'
                         
                         ]
 

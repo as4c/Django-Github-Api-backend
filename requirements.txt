@@ -1,4 +1,4 @@
-Django==4.1.2
+django==4.1.2
 django-autoslug==1.9.8
 django-tinymce==3.4.0
 djangorestframework==3.14.0
@@ -13,10 +13,6 @@ jsonify==0.5
 Pillow==9.2.0
 pipenv==2022.10.25
 pipreqs==0.4.11
-pytweening==1.0.4
-pytz==2022.1
-pywin32==303
-requests==2.27.1
 sqlparse==0.4.2
 tzdata==2021.5
 urllib3==1.26.9
