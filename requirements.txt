@@ -3,6 +3,7 @@ django-autoslug==1.9.8
 django-tinymce==3.4.0
 djangorestframework==3.14.0
 backoff==5.0.1
+requests==2.25.0
 Automat==20.2.0
 backcall==0.2.0
 daphne==3.0.2
