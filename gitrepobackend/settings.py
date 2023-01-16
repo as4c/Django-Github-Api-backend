@@ -14,7 +14,7 @@ SECRET_KEY = 'django-insecure-dsxc#5+edq&mjf^l1@08ed5*x!%^5mg*rqu9mme#nk-%8_-2tu
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['.vercel.app', '.now.sh']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -68,10 +68,10 @@ WSGI_APPLICATION = 'gitrepobackend.wsgi.application'
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
 DATABASES = {
-    # 'default': {
-    #     'ENGINE': 'django.db.backends.sqlite3',
-    #     'NAME': BASE_DIR / 'db.sqlite3',
-    # }
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
+    }
 }
 
 
@@ -126,7 +126,7 @@ MEDIA_ROOT=os.path.join(BASE_DIR,'media')
 CORS_ALLOW_ALL_ORIGINS = False
 CORS_ORIGIN_WHITELIST = ['http://localhost:3000',
                         'https://as4c.github.io'
-                        
+                        'https://gitrepofrontend.netlify.app'
                         ]
 
 CORS_ALLOW_HEADERS = [
