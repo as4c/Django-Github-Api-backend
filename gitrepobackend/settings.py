@@ -125,8 +125,8 @@ MEDIA_ROOT=os.path.join(BASE_DIR,'media')
 
 CORS_ALLOW_ALL_ORIGINS = False
 CORS_ORIGIN_WHITELIST = ['http://localhost:3000',
+                        'https://gitrepofrontend.netlify.app',
                         'https://as4c.github.io'
-                        'https://gitrepofrontend.netlify.app'
                         ]
 
 CORS_ALLOW_HEADERS = [
@@ -163,5 +163,5 @@ REST_FRAMEWORK = {
     ]
 }
 
-STATICFILES_DIRS = [BASE_DIR/'static',]
-STATIC_ROOT = BASE_DIR/'staticfiles'
+# STATICFILES_DIRS = [BASE_DIR/'static',]
+# STATIC_ROOT = BASE_DIR/'staticfiles'
