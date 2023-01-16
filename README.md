@@ -13,13 +13,7 @@ These instructions will get you a copy of the project up and running on your loc
 - pip
 - Other dependencies listed in `requirements.txt`
 
-## Installation
-
-1. Clone the repository:
-copy code
-```bash
-git clone https://github.com/as4c/Django-Github-Api-backend.git
-```
+# Installation
 
 ## 1.Clone the repository
 Copy code
