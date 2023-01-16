@@ -6,7 +6,7 @@ This is a Django-based backend for a DJango REST API . It allows you to access g
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 
-## Prequirities
+## Prerequirities
 - Python 3.7+
 - Django 3.2+
 - Django REST framework
