@@ -6,7 +6,7 @@ This is a Django-based backend for a DJango REST API . It allows you to access g
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 
-## Preeequirities
+## Prequirities
 - Python 3.7+
 - Django 3.2+
 - Django REST framework
@@ -60,6 +60,9 @@ Copy code
 ```bash
 python manage.py test
 ```
+## Screenshots
+After running the server it will look like that-
+![App Screenshot]('https://github.com/as4c/Django-Github-Api-backend/blob/master/User%20%E2%80%93%20Django%20REST%20framework.png')
 # Built With
 Django - The web framework used
 # Django REST framework - Used for building RESTful API
