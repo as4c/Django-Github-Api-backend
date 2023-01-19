@@ -1,0 +1,1 @@
+web: gunicorn gitrepobackend.wsgi --log-file -
